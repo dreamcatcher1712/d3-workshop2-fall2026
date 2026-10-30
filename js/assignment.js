@@ -44,8 +44,8 @@ function cumulativeTimes(race, driverNumber) {
     const laps = race.laps.filter(l => l.driver_number === driverNumber);
 
     const typical = d3.median(
-        laps.filter(l => /* Define which laps count: not lap 1, not a pit-in lap (l.pitIn), and with a time */),
-        l => /* Specify the value to take the median of */
+        laps.filter(l => l.lap_number !== 1 && !l.pitIn && l.lap_duration !== null/* Define which laps count: not lap 1, not a pit-in lap (l.pitIn), and with a time */),
+        l => l.lap_duration/* Specify the value to take the median of */
     );
     if (typical === undefined) return []; // a driver with no usable laps at all
 
