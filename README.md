@@ -70,7 +70,7 @@ git push
 
 **Participation answer** (3 sentences): which driver's strategy differed most from the winner's, and what on the chart shows it?
 
->
+> In Japan, winner VER ran Medium then Hard with one stop around lap 21, and STR deviated most as the only two-stopper (Soft, Hard, Medium). In Britain, winner NOR ran Intermediates then switched to Mediums around lap 44, while STR deviated most with three stops alternating Intermediate and Soft. In the Netherlands, winner PIA made two stops (Medium, Hard, Hard), while SAI deviated most with four stops and three Soft stints at the end.
 
 **Assignment** (2 or 3 sentences): pick one race. What does the race trace show that a plain chart of lap times would hide?
 
